@@ -27,7 +27,7 @@ The algorithm has been assessed on **CEC’22** functions, **classical engineeri
 ---
 
 ## Citation
-If you use HBO in academic work, please cite the project. Replace the placeholder with your DOI or arXiv ID when available.
+
 
 @article{ouertani2025hannibal,
   title={Hannibal Barca optimizer: the power of the pincer movement for global optimization and multilevel image thresholding},
