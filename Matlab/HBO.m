@@ -1,6 +1,6 @@
 function [HA_score, HA_pos, Convergence_curve] = HBO(warriors_no, Max_iter, lb, ub, dim, fobj)
     %% HBO - Hannibal Barca Optimizer
-    % Optimized version with improved structure and reduced code duplication
+    
     
     %% Initialize global variables
     HA_pos = zeros(1, dim);
