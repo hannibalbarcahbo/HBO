@@ -1,5 +1,5 @@
 function [HA_score, HA_pos, Convergence_curve] = HBO(warriors_no, Max_iter, lb, ub, dim, fobj)
-    %% HBO - Hannibal's Battle Optimization Algorithm
+    %% HBO - Hannibal Barca Optimizer
     % Optimized version with improved structure and reduced code duplication
     
     %% Initialize global variables
