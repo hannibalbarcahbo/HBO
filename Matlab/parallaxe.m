@@ -3,7 +3,6 @@ function [modified_pos_right] = parallaxe(pos_right,Rom_Gen)
 N = size(pos_right,1);
 if mod(N,2) ~= 0
  % Ensure that the number of elements in X matches the reshaping dimensions
-%    assert(size(X,1) * size(X,2) == N*2, 'Number of elements in X does not match reshaping dimensions');
     couples = reshape(randperm(N-1), [], 2); % Use [] to automatically calculate size
 else
     couples = reshape(randperm(N), [], 2); % Use [] to automatically calculate size
@@ -30,19 +29,7 @@ for idx = 1:size(couples, 1)
 end
 
 
-% for j = 1:length(modified_indices)
-%     i= modified_indices(j);
-%     old_fitness = fobj(pos_right(i,:));
-%     new_fitness = fobj(modified_pos_right(i,:));
-%     
-%     
-%     if (new_fitness < old_fitness)
-%         pos_right(i,:) =modified_pos_right(i,:)   ;
-%         
-%     end
-%     
-%     
-%     
-% end
+
 
 end 
+
