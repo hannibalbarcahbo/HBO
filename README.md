@@ -3,8 +3,7 @@
 > A population-based metaheuristic inspired by Hannibal’s **Pincer Movement** and an auxiliary **parallax learning** mechanism for robust global optimization.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#license)
-[![Language: MATLAB](https://img.shields.io/badge/Languages-MATLAB-blue.svg)]()
-[![Language: Python](https://img.shields.io/badge/Language-Python-yellow.svg)]()
+[![Languages: MATLAB/Python](https://img.shields.io/badge/Languages-MATLAB%20%7C%20Python-3776AB?style=flat)]()
 [![Benchmarks: CEC’22](https://img.shields.io/badge/Benchmarks-CEC'22-orange.svg)]()
 [![Status: Active](https://img.shields.io/badge/Status-Active-success.svg)]()
 
